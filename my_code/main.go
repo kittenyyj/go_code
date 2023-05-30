@@ -14,18 +14,17 @@ func main() {
 	s := ",hahh,"
 	res := strings.Split(s, ",")
 	fmt.Println(len(res))
-
 	var sl []int
 	sl = append(sl, 1)
 	fmt.Println(sl, len(sl), cap(sl))
 	f(11, 22, 33)
 	fmt.Println()
-	str := "1我们1"
+	str := "1我们111"
 	// for i := 0; i < len(str); i++ {
 	// 	fmt.Printf("%c",str[i])
 	// }
-	for _,v := range str{
-		fmt.Printf("%c",v)
+	for _, v := range str {
+		fmt.Printf("%c", v)
 	}
 
 }
