@@ -19,7 +19,7 @@ func main() {
 	fmt.Println(sl, len(sl), cap(sl))
 	f(11, 22, 33)
 	fmt.Println()
-	str := "1我们111"
+	str := "1我们1"
 	// for i := 0; i < len(str); i++ {
 	// 	fmt.Printf("%c",str[i])
 	// }
