@@ -1,16 +1,17 @@
 package main
+
 import (
 	"fmt"
 )
 
 //演示golang中字符类型使用
 func main() {
-	
+
 	var c1 byte = 'a'
 	var c2 byte = '0' //字符的0
 
 	//当我们直接输出byte值，就是输出了的对应的字符的码值
-	// 'a' ==> 
+	// 'a' ==>
 	fmt.Println("c1=", c1)
 	fmt.Println("c2=", c2)
 	//如果我们希望输出对应字符，需要使用格式化输出
@@ -27,6 +28,6 @@ func main() {
 	//字符类型是可以进行运算的，相当于一个整数,运输时是按照码值运行
 	var n1 = 10 + 'a' //  10 + 97 = 107
 	fmt.Println("n1=", n1)
-	fmt.Printf("%T",n1)
+	fmt.Printf("%T", n1)
 
 }

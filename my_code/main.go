@@ -26,6 +26,10 @@ func main() {
 	for _, v := range str {
 		fmt.Printf("%c", v)
 	}
+	fmt.Println()
+	ff := 5 / 4.0
+	fmt.Println(ff)
+	fmt.Printf("%T", ff)
 
 }
 func f(a ...interface{}) {
@@ -34,4 +38,5 @@ func f(a ...interface{}) {
 		fmt.Println(k, v)
 	}
 	fmt.Print("1111")
+	fmt.Print("2222")
 }

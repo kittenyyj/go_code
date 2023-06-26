@@ -42,7 +42,6 @@ func main() {
 	str = strconv.FormatFloat(num4, 'f', 10, 64)
 	fmt.Printf("str type %T str=%q\n", str, str)
 
-
 	str = strconv.FormatBool(b2)
 	fmt.Printf("str type %T str=%q\n", str, str)
 

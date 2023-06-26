@@ -1,4 +1,5 @@
 package main
+
 import (
 	"fmt"
 )
@@ -43,7 +44,6 @@ func main() {
 	//字符串拼接方式
 	var str = "hello " + "world"
 	str += " haha!"
-
 	fmt.Println(str)
 	//当一个拼接的操作很长时，怎么办，可以分行写,但是注意，需要将+保留在上一行.
 	str4 := "hello " + "world" + "hello " + "world" + "hello " + 
