@@ -38,5 +38,5 @@ func f(a ...interface{}) {
 		fmt.Println(k, v)
 	}
 	fmt.Print("1111")
-	fmt.Print("55555")
+	fmt.Print("22222")
 }
