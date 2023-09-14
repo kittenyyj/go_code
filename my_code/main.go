@@ -38,5 +38,6 @@ func f(a ...interface{}) {
 		fmt.Println(k, v)
 	}
 	fmt.Print("1111")
+	fmt.Print("44444")
 	fmt.Print("22222")
 }
